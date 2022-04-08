@@ -5,6 +5,7 @@
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/button/profile__edit-button.css);
 @import url(../blocks/button/__add/profile__add-button.css);
+@import url(../blocks/button/button.css);
 @import url(../blocks/profile/__name/profile__name.css);
 @import url(../blocks/profile/__image/profile__image.css);
 @import url(../blocks/profile/__title/profile__title.css);
