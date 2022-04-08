@@ -1,0 +1,6 @@
+.profile__image{
+    max-height: 127px;
+    border-radius: 100%;
+    grid-area: profile-pic;
+    margin-right: 30px;
+}

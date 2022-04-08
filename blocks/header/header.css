@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    border-bottom: 1px solid #545454;
+    align-items: flex-start;
+    flex-direction: row;
+    max-width: 880px;
+    margin: auto;
+
+}
