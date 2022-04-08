@@ -1,0 +1,9 @@
+.profile__edit-button{
+  border: 0;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-image: url(../../../web_project_4/images/Edit-Button-insert-Svgomg.svg);
+  background-position: center;
+  grid-area: edit-button;
+}
