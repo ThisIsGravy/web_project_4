@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 
     "profile-pic name edit-button add-button"
-    "profile-pic subtitle . add-button";
+    "profile-pic job  . add-button";
     grid-template-columns: min-content auto min-content;
     grid-template-rows: min-content auto;
     margin: 36.25px auto 46.25px;

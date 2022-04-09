@@ -1,12 +1,12 @@
 .profile__subtitle{
     color: #fff;
     font-size: 18px;
-    grid-area: subtitle;
+    grid-area: job;
     line-height: 21.78px;
     margin: 16px 0 0 0;
     max-width: 373px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 16px 0 0 0;
+    margin: 0;
 }
