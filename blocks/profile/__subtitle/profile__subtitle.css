@@ -10,3 +10,9 @@
     white-space: nowrap;
     margin: 0;
 }
+
+@media screen and (max-width:320px) {
+    .profile__subtitle{
+        margin-top: 14px;
+    }
+}

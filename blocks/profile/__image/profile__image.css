@@ -4,3 +4,9 @@
     grid-area: profile-pic;
     margin-right: 30px;
 }
+
+@media screen and (max-width: 320px) {
+    .profile__image{
+        max-width: 168.75px;
+    }
+}
