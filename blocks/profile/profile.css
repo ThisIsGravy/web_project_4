@@ -1,0 +1,18 @@
+.profile{
+    display: grid;
+    grid-template-areas: 
+    "profile-pic name edit-button add-button"
+    "profile-pic job  . add-button";
+    grid-template-columns: min-content auto min-content;
+    grid-template-rows: min-content auto;
+    margin: 36.25px auto 46.25px;
+    max-width: 880px;
+}
+
+@media screen and (max-width: 320px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

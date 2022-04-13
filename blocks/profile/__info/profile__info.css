@@ -1,0 +1,5 @@
+.profile__info{
+    grid-area: name;
+    align-self: flex-end;
+    align-items: baseline;
+}

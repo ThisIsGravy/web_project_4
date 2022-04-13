@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Around the U.S.</title>
+    <meta
+      name="description"
+      content="A social media website mockup with JS functionality"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <header class="header">
+    <img
+    src="./images/header-logo.svg"
+    class="logo"
+    alt="logo for Around the U.S."
+  />
+  </header>
+  <body class="page">
+    <section class="profile">
+        <img class="profile__image" src="./images/cousteau.png" />
+        <h1 class="profile__title">Jacques Cousteau</h1>
+        <button class="button profile__edit-button" id="edit-button">
+            <img
+              src="./images/Edit-button-insert.png"
+              alt="Have pencil, will edit once you click"
+            />
+        </button>
+        <p class="profile__subtitle">
+            Explorer
+        </p>
+      <button class="profile__add-button" id="add-button">
+        <img
+          src="./images/add-button.png"
+          alt="click here to add a photo"
+        />
+      </button>
+    </section>
+    <section class="cards">
+        <ul class="cards__container">
+            <li class="card">
+                <img class="card__image" src="./images/Yosemite Valley.png" alt="Picture of the Yosemite Valley">
+                <div class="card__handle">
+                    <h2 class="card__place">
+                        Yosemite Valley
+                    </h2>
+                    <button aria-label="Like Button" type="button" class="card__like"></button>
+                </div>
+            </li>
+                <li class="card">
+                    <img class="card__image" src="./images/Lake Louise.png" alt="Picture of Lake Louise">
+                    <div class="card__handle">
+                        <h2 class="card__place">
+                            Lake Louise
+                        </h2>
+                        <button aria-label="Like Button" type="button" class="card__like"></button>
+                    </div>  
+            </li>
+                <li class="card">
+                    <img class="card__image" src="./images/Bald Mountains.png" alt="Picture of the Bald Mountains">
+                    <div class="card__handle">
+                        <h2 class="card__place">
+                            Bald Mountains
+                        </h2>
+                        <button aria-label="Like Button" type="button" class="card__like"></button>
+                    </div>
+            </li>
+                <li class="card">
+                    <img class="card__image" src="./images/latemar.png" alt="Picture of Latemar">
+                    <div class="card__handle">
+                        <h2 class="card__place">
+                            Latemar
+                        </h2>
+                        <button aria-label="Like Button" type="button" class="card__like"></button>
+                    </div>
+            </li>
+                <li class="card">
+                    <img class="card__image" src="./images/Vanoise Natioal Park.png" alt="Picture of the Vanoise Natioal Park">
+                    <div class="card__handle">
+                        <h2 class="card__place">
+                            Vanoise National Park
+                        </h2>
+                        <button aria-label="Like Button" type="button" class="card__like"></button>
+                    </div>
+            </li>
+                <li class="card">
+                    <img class="card__image" src="./images/Lago di Braies.png" alt="Picture of Lago di Braies">
+                    <div class="card__handle">
+                        <h2 class="card__place">
+                            Lago di Braies
+                        </h2>
+                        <button aria-label="Like Button" type="button" class="card__like"></button>
+                    </div>
+            </li>
+        </ul>
+        </section>
+    <footer class="footer">
+        <p class="footer__text">	&#169; 2022 Around The U.S.</p>
+    </footer>
+    <script src="" async defer></script>
+  </body>
+</html>
