@@ -22,3 +22,5 @@
 @import url(../blocks/card/__handle/card__handle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__is_opened/popup__is_opened.css);

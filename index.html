@@ -28,7 +28,7 @@
               alt="Have pencil, will edit once you click"
             />
         </button>
-        <p class="profile__subtitle">
+        <p class="profile__description">
             Explorer
         </p>
       <button class="profile__add-button" id="add-button">
@@ -99,6 +99,15 @@
     <footer class="footer">
         <p class="footer__text">	&#169; 2022 Around The U.S.</p>
     </footer>
-    <script src="" async defer></script>
+    <div class="popup popup__is_opened">
+        <button type="button" class="popup__close"></button>
+        <h3 class="popup__title">Edit Profile</h3>
+        <form class="popup__form" name="new">
+            <input type="text" name="name" class="popup__input popup__input_type_name" placeholder="Name">
+            <input type="text" name="description" class="popup__input popup__input_type_description" placeholder="About me">
+            <button type="submit" class="button popup__button">Save</button>
+        </form> 
+    </div>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
