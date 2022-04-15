@@ -1,4 +1,10 @@
 @import url(./__is_opened/popup__is_opened.css);
+@import url(./__button/popup__button.css);
+@import url(./__close/popup__close.css);
+@import url(./__input/popup__input.css);
+@import url(./__content/popup__content.css);
+@import url(./__form/popup__form.css);
+@import url(./__title/popup__title.css);
 
 .popup{
     font-family: "Inter", Arial, sans-serif;
