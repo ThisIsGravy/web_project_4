@@ -6,7 +6,7 @@
   border: none;
   background-color: transparent;
   padding: 0;
-  background-image: url(../../../images/Like.png);
+  background-image: url(../../../images/heart_like.svg);
 }
 
 .card__like:hover {
